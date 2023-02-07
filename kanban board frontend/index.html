@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KanBan Board</title>
+
+   <link rel="stylesheet" href="main.css">
+   <link rel="stylesheet" href="vars.css">
+
+    <script src="assets/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/989aa5ac12.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>KanBan Board </h1>
+            <div class="user-profile-btn-container">
+                <a href=""><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+        </header>
+        <div class="content">
+            <div class="row1">
+                <form method="post">
+                    <select name="board-select" id="board-select">
+                        <option value="">Select a board...</option>
+                        <option value="Kanban 1">Kanban 1</option>
+                        <option value="Kanban 2">Kanban 2</option>
+                        <option value="Kanban 3">Kanban 3</option>
+                        <option value="Kanban 4">Kanban 4</option>
+                    </select>
+                    <button>Create New Board</button>
+                </form>
+            </div>
+
+            <div class="row2">
+                <div class="card">
+                    <div class="card-title">Backlog</div>
+                    <div class="card-body">
+                        <div class="memo">
+                            <div class="memo-text">Design Front End</div>
+                            <div class="memo-attributes">
+                                <span class="story">Story Etimate: 2</span>
+                                <span class="assignee">Assigned to: <i class="fa-solid fa-circle-user"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="memo">
+                            <div class="memo-text">Design, Develop, Implement, Maintain, Redesign, Redevelop, Reimplement</div>
+                            <div class="memo-attributes">
+                                <span class="story">Story Etimate: 4</span>
+                                <span class="assignee">Assigned to: <i class="fa-solid fa-circle-user"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">To Do</div>
+                    <div class="card-body">
+                        <div class="memo">
+                            <div class="memo-text">Design Front end</div>
+                            <div class="memo-attributes">
+                                <span class="story">Story Etimate: 2</span>
+                                <span class="assignee">Assigned to: <i class="fa-solid fa-circle-user"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">In Progress</div>
+                    <div class="card-body">
+                        <div class="memo">
+                            <div class="memo-text">Design Front End</div>
+                            <div class="memo-attributes">
+                                <span class="story">Story Etimate: 2</span>
+                                <span class="assignee">Assigned to: <i class="fa-solid fa-circle-user"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">To be Tested</div>
+                    <div class="card-body">
+                        <div class="memo">
+                            <div class="memo-text">Design Front End</div>
+                            <div class="memo-attributes">
+                                <span class="story">Story Etimate: 2</span>
+                                <span class="assignee">Assigned to: <i class="fa-solid fa-circle-user"></i></span>
+                            </div>
+                        </div>
+                        <div class="memo">
+                            <div class="memo-text">Design, Develop, Implement, Maintain, Redesign, Redevelop, Reimplement</div>
+                            <div class="memo-attributes">
+                                <span class="story">Story Etimate: 4</span>
+                                <span class="assignee">Assigned to: <i class="fa-solid fa-circle-user"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title">Reopen</div>
+                    <div class="card-body">
+                        <div class="memo">
+                            <div class="memo-text">Design Front End</div>
+                            <div class="memo-attributes">
+                                <span class="story">Story Etimate: 2</span>
+                                <span class="assignee">Assigned to: <i class="fa-solid fa-circle-user"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Done</div>
+                    <div class="card-body">
+                        <div class="memo">
+                            <div class="memo-text">Design Front End</div>
+                            <div class="memo-attributes">
+                                <span class="story">Story Etimate: 2</span>
+                                <span class="assignee">Assigned to: <i class="fa-solid fa-circle-user"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="memo">
+                            <div class="memo-text">Develop Back End</div>
+                            <div class="memo-attributes">
+                                <span class="story">Story Etimate: 4</span>
+                                <span class="assignee">Assigned to: <i class="fa-solid fa-circle-user"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+                
+        </div>
+       
+    </div>
+</body>
+</html>

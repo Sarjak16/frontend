@@ -1,0 +1,86 @@
+body{
+    background: honeydew;
+    
+}
+
+button{
+    background: var(--primary-color);
+    border: 2px solid #cccccc;
+    border-radius:2rem;
+    font-size: large;
+}
+h1, h2, h3, h4, h5, h6, .card-title{
+    font-family: var(--title-font);
+}
+
+p, .memo-text{
+    font-family: var(--text-font);
+    font-size: var(--text-size);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+}
+
+.row2{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card{
+    width: 25vw;
+    background: var(--light-bg);
+    margin: 1rem;
+}
+
+.card, .memo{
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    box-shadow: var(--box-shadow);
+}
+.card-title{
+    font-size: var(--h2-size);
+    background: var(--primary-color);
+    border-radius: 12px 12px 0 0;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.card-title, .card-body, .memo{
+    padding: 0.5rem;
+}
+
+.card-body{
+    display: flex;
+    flex-flow: column nowrap;
+    align
+}
+
+.memo{
+    width: 90%;
+    background: var(--white);
+    margin-bottom: 1rem;
+}
+
+.memo-attributes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.memo-attributes span{
+    font-size: 0.6rem;
+    font-style: italic;
+}
